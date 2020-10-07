@@ -1,6 +1,6 @@
 #include <iostream>
-
-using namespace std
+#include <conio.h>
+using namespace std;
 
 int main()
 {
@@ -186,103 +186,7 @@ int main()
 
     cout<<"==# Amount of paint used #=="<<endl<<endl;
     cout<<"Red colour= "<<r_used<<" liters"<<endl<<"Blue colour= "<<b_used<<" liters"<<endl<<"White colour= "<<w_used<<" liters"<<endl<<endl;
-
+    return 0;
 
 }
 
-
-
-
-
-/* *ALL COLOUR CANS HAVE MAX: 120 Liters OF COLOUR IN IT*
-
-Select your colour:
-1.Red
-2.Blue
-3.White
-1
-Enter Amount(in liters) of Red colour:
-90
-Available Red colour= 30
-Red colour has been RESTORED 100%
-Available Red colour= 120
-Available Blue colour= 120
-Available White colour= 120
-Want to paint more ?
-press 1
-Painting done !
-press 2
-1
-Select your colour:
-1.Red
-2.Blue
-3.White
-1
-Enter Amount(in liters) of Red colour:
-60
-Available Red colour= 60
-Available Blue colour= 120
-Available White colour= 120
-Want to paint more ?
-press 1
-Painting done !
-press 2
-1
-Select your colour:
-1.Red
-2.Blue
-3.White
-2
-Enter Amount(in liters) for Blue colour:
-60
-Available Red colour= 60
-Available Blue colour= 60
-Available White colour= 120
-Want to paint more ?
-press 1
-Painting done !
-press 2
-1
-Select your colour:
-1.Red
-2.Blue
-3.White
-3
-Enter Amount(in liters) for White colour:
-120
-Available White colour= 0
-Available Red colour= 120
-Available Blue colour= 120
-Available White colour= 120
-Want to paint more ?
-press 1
-Painting done !
-press 2
-2
-==# Amount of paint remaining #==
-
-Red colour= 120 liters
-Blue colour= 120 liters
-White colour= 120 liters
-
-==# NO. of times paint cans refilled #==
-
-Red colour= 2 tyms
-Blue colour= 1 tyms
-White colour= 1 tyms
-
-==# Amount of paint refilled #==
-
-Red colour= 240 liters
-Blue colour= 60 liters
-White colour= 120 liters
-
-==# Amount of paint used #==
-
-Red colour= 150 liters
-Blue colour= 60 liters
-White colour= 120 liters
-
-
-Process returned 0 (0x0)   execution time : 30.255 s
-Press any key to continue. */
